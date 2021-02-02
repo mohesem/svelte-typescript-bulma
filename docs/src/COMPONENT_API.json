@@ -1,0 +1,42 @@
+{
+  "total": 1,
+  "components": [
+    {
+      "moduleName": "Button",
+      "filePath": "src/components/Button/component.svelte",
+      "props": [
+        {
+          "name": "kind",
+          "kind": "let",
+          "description": "Specify the kind of button",
+          "type": "\"primary\" | \"secondary\" | \"tertiary\"",
+          "value": "\"primary\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "label",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "color",
+          "kind": "let",
+          "type": "string",
+          "value": "\"red\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": true
+        }
+      ],
+      "slots": [],
+      "events": [],
+      "typedefs": []
+    }
+  ]
+}
