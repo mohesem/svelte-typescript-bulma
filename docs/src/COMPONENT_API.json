@@ -1,16 +1,290 @@
 {
-  "total": 1,
+  "total": 22,
   "components": [
     {
       "moduleName": "Button",
-      "filePath": "src/components/Button/component.svelte",
+      "filePath": "src/components/Button.svelte",
       "props": [
         {
-          "name": "kind",
+          "name": "color",
           "kind": "let",
-          "description": "Specify the kind of button",
-          "type": "\"primary\" | \"secondary\" | \"tertiary\"",
-          "value": "\"primary\"",
+          "type": "\"primary\" | \"link\" | \"info\" | \"warning\" | \"success\" | \"danger\" ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "theme",
+          "kind": "let",
+          "type": " 'white' | 'light'| 'dark'| 'black' | 'text' | 'ghost' ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "size",
+          "kind": "let",
+          "type": " 'small' | 'normal'| 'medium' | 'large' ",
+          "value": "\"normal\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "label",
+          "kind": "let",
+          "type": " string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "block",
+          "kind": "let",
+          "description": "Specify whether the button should be block",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "outline",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "invert",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "round",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "loading",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "freeze",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "disabled",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "id",
+          "kind": "let",
+          "type": " string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "name",
+          "kind": "let",
+          "type": " string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [{ "type": "forwarded", "name": "click", "element": "button" }],
+      "typedefs": []
+    },
+    {
+      "moduleName": "ButtonGroup",
+      "filePath": "src/components/ButtonGroup.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Card",
+      "filePath": "src/components/Card.svelte",
+      "props": [
+        {
+          "name": "centered",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "CardContent",
+      "filePath": "src/components/CardContent.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "CardFooter",
+      "filePath": "src/components/CardFooter.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Column",
+      "filePath": "src/components/Column.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Columns",
+      "filePath": "src/components/Columns.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Fieldset",
+      "filePath": "src/components/Fieldset.svelte",
+      "props": [
+        {
+          "name": "disabled",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Help",
+      "filePath": "src/components/Help.svelte",
+      "props": [
+        {
+          "name": "color",
+          "kind": "let",
+          "type": "\"primary\" | \"link\" | \"info\" | \"warning\" | \"success\" | \"danger\" ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "message",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Input",
+      "filePath": "src/components/Input.svelte",
+      "props": [
+        {
+          "name": "color",
+          "kind": "let",
+          "type": "\"primary\" | \"link\" | \"info\" | \"warning\" | \"success\" | \"danger\" ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "size",
+          "kind": "let",
+          "type": " 'small' | 'normal'| 'medium' | 'large' ",
+          "value": "\"normal\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "round",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "loading",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "notifs",
+          "kind": "let",
+          "type": "[]",
+          "value": "[]",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "readonly",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
           "isFunction": false,
           "constant": false,
           "reactive": false
@@ -25,16 +299,281 @@
           "reactive": false
         },
         {
-          "name": "color",
+          "name": "name",
           "kind": "let",
           "type": "string",
-          "value": "\"red\"",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "id",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "placeholder",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "value",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
           "isFunction": false,
           "constant": false,
           "reactive": true
+        },
+        {
+          "name": "t",
+          "kind": "let",
+          "type": " 'text' | 'password' ",
+          "value": "\"text\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
         }
       ],
       "slots": [],
+      "events": [
+        { "type": "forwarded", "name": "input", "element": "input" },
+        { "type": "forwarded", "name": "blur", "element": "input" }
+      ],
+      "typedefs": []
+    },
+    {
+      "moduleName": "ModalNotif",
+      "filePath": "src/components/ModalNotif.svelte",
+      "props": [
+        {
+          "name": "active",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "onClose",
+          "kind": "let",
+          "type": "() => null",
+          "value": "() => null",
+          "isFunction": true,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Navbar",
+      "filePath": "src/components/Navbar.svelte",
+      "props": [
+        {
+          "name": "color",
+          "kind": "let",
+          "type": "\"primary\" | \"link\" | \"info\" | \"warning\" | \"success\" | \"danger\" | \"black\" | \"dark\" | \"white\" | \"light\" ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "defaultClass",
+          "kind": "let",
+          "type": "string",
+          "value": "\"navbar\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "NavbarBrand",
+      "filePath": "src/components/NavbarBrand.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "NavbarEnd",
+      "filePath": "src/components/NavbarEnd.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "NavbarItem",
+      "filePath": "src/components/NavbarItem.svelte",
+      "props": [
+        {
+          "name": "href",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "value",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "active",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Notification",
+      "filePath": "src/components/Notification.svelte",
+      "props": [
+        {
+          "name": "color",
+          "kind": "let",
+          "type": "\"primary\" | \"link\" | \"info\" | \"warning\" | \"success\" | \"danger\" ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "theme",
+          "kind": "let",
+          "type": " 'white' | 'light'| 'dark'| 'black' | 'text' | 'ghost' ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "PageLoader",
+      "filePath": "src/components/PageLoader.svelte",
+      "props": [],
+      "slots": [],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Subtitle",
+      "filePath": "src/components/Subtitle.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Text",
+      "filePath": "src/components/Text.svelte",
+      "props": [
+        {
+          "name": "size",
+          "kind": "let",
+          "type": " 1 | 2 | 3 | 4 | 5 | 6 | 7 | undefined ",
+          "value": "2",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "align",
+          "kind": "let",
+          "type": " 'center' | 'justify' | 'left' | 'right' | undefined",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "weight",
+          "kind": "let",
+          "type": " 'light' | 'normal' | 'medium' | 'semibold' | 'bold' | undefiend ",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Title",
+      "filePath": "src/components/Title.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Toast",
+      "filePath": "src/components/Toast.svelte",
+      "props": [
+        {
+          "name": "color",
+          "kind": "let",
+          "type": "\"primary\" | \"link\" | \"info\" | \"warning\" | \"success\" | \"danger\" ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "theme",
+          "kind": "let",
+          "type": " 'white' | 'light'| 'dark'| 'black' | 'text' | 'ghost' ",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "box",
+      "filePath": "src/components/Box.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
       "events": [],
       "typedefs": []
     }
