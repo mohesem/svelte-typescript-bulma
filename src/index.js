@@ -1,4 +1,4 @@
-export { default as box } from "./components/Box.svelte";
+export { default as Box } from "./components/Box.svelte";
 export { default as Button } from "./components/Button.svelte";
 export { default as ButtonGroup } from "./components/ButtonGroup.svelte";
 export { default as Card } from "./components/Card.svelte";
