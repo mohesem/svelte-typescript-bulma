@@ -2,25 +2,25 @@
 
 ## ADDED ITEMS
 
-_ Box
-_ Button
-_ ButtonGroup
-_ Card
-_ CardContent
-_ CardFooter
-_ Column
-_ Columns
-_ Fieldset
-_ Help
-_ Input
-_ ModalNotif
-_ Navbar
-_ NavbarBrand
-_ NavbarEnd
-_ NavbarItem
-_ Notification
-_ PageLoader
-_ Subtitle
-_ Text
-_ Title
-_ Toast
+- Box
+- Button
+- ButtonGroup
+- Card
+- CardContent
+- CardFooter
+- Column
+- Columns
+- Fieldset
+- Help
+- Input
+- ModalNotif
+- Navbar
+- NavbarBrand
+- NavbarEnd
+- NavbarItem
+- Notification
+- PageLoader
+- Subtitle
+- Text
+- Title
+- Toast
