@@ -1,6 +1,14 @@
 {
-  "total": 22,
+  "total": 39,
   "components": [
+    {
+      "moduleName": "Box",
+      "filePath": "src/components/Box.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
     {
       "moduleName": "Button",
       "filePath": "src/components/Button.svelte",
@@ -352,6 +360,102 @@
       "typedefs": []
     },
     {
+      "moduleName": "Modal",
+      "filePath": "src/components/Modal.svelte",
+      "props": [
+        {
+          "name": "visibility",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": true
+        },
+        {
+          "name": "closeButton",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [{ "type": "dispatched", "name": "visibility" }],
+      "typedefs": []
+    },
+    {
+      "moduleName": "ModalCard",
+      "filePath": "src/components/ModalCard.svelte",
+      "props": [
+        {
+          "name": "visibility",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": true
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [{ "type": "dispatched", "name": "visibility" }],
+      "typedefs": []
+    },
+    {
+      "moduleName": "ModalCardBody",
+      "filePath": "src/components/ModalCardBody.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "ModalCardFooter",
+      "filePath": "src/components/ModalCardFooter.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "ModalCardHeader",
+      "filePath": "src/components/ModalCardHeader.svelte",
+      "props": [
+        {
+          "name": "title",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "closeButton",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [{ "type": "forwarded", "name": "click", "element": "button" }],
+      "typedefs": []
+    },
+    {
+      "moduleName": "ModalContent",
+      "filePath": "src/components/ModalContent.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
       "moduleName": "ModalNotif",
       "filePath": "src/components/ModalNotif.svelte",
       "props": [
@@ -493,8 +597,93 @@
       "typedefs": []
     },
     {
+      "moduleName": "Panel",
+      "filePath": "src/components/Panel.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "PanelBlock",
+      "filePath": "src/components/PanelBlock.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "PanelHeader",
+      "filePath": "src/components/PanelHeader.svelte",
+      "props": [
+        {
+          "name": "title",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "PanelIcon",
+      "filePath": "src/components/PanelIcon.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "PanelTabs",
+      "filePath": "src/components/PanelTabs.svelte",
+      "props": [
+        {
+          "name": "isActive",
+          "kind": "let",
+          "type": "boolean",
+          "value": "false",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        },
+        {
+          "name": "href",
+          "kind": "let",
+          "type": "string",
+          "value": "\"\"",
+          "isFunction": false,
+          "constant": false,
+          "reactive": false
+        }
+      ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
       "moduleName": "Subtitle",
       "filePath": "src/components/Subtitle.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Table",
+      "filePath": "src/components/Table.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Tbody",
+      "filePath": "src/components/Tbody.svelte",
       "props": [],
       "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
       "events": [],
@@ -535,6 +724,30 @@
       "typedefs": []
     },
     {
+      "moduleName": "Tfoot",
+      "filePath": "src/components/Tfoot.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Th",
+      "filePath": "src/components/Th.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "Thead",
+      "filePath": "src/components/Thead.svelte",
+      "props": [],
+      "slots": [],
+      "events": [],
+      "typedefs": []
+    },
+    {
       "moduleName": "Title",
       "filePath": "src/components/Title.svelte",
       "props": [],
@@ -570,8 +783,8 @@
       "typedefs": []
     },
     {
-      "moduleName": "box",
-      "filePath": "src/components/Box.svelte",
+      "moduleName": "Tr",
+      "filePath": "src/components/Tr.svelte",
       "props": [],
       "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
       "events": [],

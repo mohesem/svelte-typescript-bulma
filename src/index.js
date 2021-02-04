@@ -20,3 +20,23 @@ export { default as Subtitle } from "./components/Subtitle.svelte";
 export { default as Text } from "./components/Text.svelte";
 export { default as Title } from "./components/Title.svelte";
 export { default as Toast } from "./components/Toast.svelte";
+// modal
+export { default as Modal } from "./components/Modal.svelte";
+export { default as ModalContent } from "./components/ModalContent.svelte";
+export { default as ModalCard } from "./components/ModalCard.svelte";
+export { default as ModalCardBody } from "./components/ModalCardBody.svelte";
+export { default as ModalCardFooter } from "./components/ModalCardFooter.svelte";
+export { default as ModalCardHeader } from "./components/ModalCardHeader.svelte";
+// tabel
+export { default as Table } from "./components/Table.svelte";
+export { default as Tbody } from "./components/Tbody.svelte";
+export { default as Tfoot } from "./components/Tfoot.svelte";
+export { default as Th } from "./components/Th.svelte";
+export { default as Tr } from "./components/Tr.svelte";
+export { default as Thead } from "./components/Thead.svelte";
+// panel
+export { default as Panel } from "./components/Panel.svelte";
+export { default as PanelBlock } from "./components/PanelBlock.svelte";
+export { default as PanelHeader } from "./components/PanelHeader.svelte";
+export { default as PanelIcon } from "./components/PanelIcon.svelte";
+export { default as PanelTabs } from "./components/PanelTabs.svelte";

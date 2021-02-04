@@ -1,0 +1,26 @@
+<script>
+  import { createEventDispatcher } from "svelte";
+  export let visiblity = false;
+  export let closeButton = false;
+  export let onClose = () => {
+    if (visibility) visibility = false;
+  };
+
+  const dispatch = createEventDispatcher();
+
+  $: {
+    dispatch("visibility");
+  }
+  $: console.log({ visible });
+</script>
+
+<div class="modal" class:is-active={visiblity}>
+  <div class="modal-background" on:click={onClose} />
+  <slot />
+  {#if closeButton}
+    <button
+      class="modal-close is-large"
+      aria-label="close"
+      on:click={onClose} />
+  {/if}
+</div>

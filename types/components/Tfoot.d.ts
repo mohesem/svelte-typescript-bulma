@@ -1,10 +1,10 @@
 /// <reference types="svelte" />
 import { SvelteComponentTyped } from "svelte";
 
-export interface BoxProps {}
+export interface TfootProps {}
 
-export default class Box extends SvelteComponentTyped<
-  BoxProps,
+export default class Tfoot extends SvelteComponentTyped<
+  TfootProps,
   {},
   { default: {} }
 > {}

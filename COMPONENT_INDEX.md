@@ -1,9 +1,10 @@
 # Component Index
 
-> 22 components exported from svelte-typescript-bulma@0.1.7.
+> 39 components exported from svelte-typescript-bulma@0.1.9.
 
 ## Components
 
+- [`Box`](#box)
 - [`Button`](#button)
 - [`ButtonGroup`](#buttongroup)
 - [`Card`](#card)
@@ -14,6 +15,12 @@
 - [`Fieldset`](#fieldset)
 - [`Help`](#help)
 - [`Input`](#input)
+- [`Modal`](#modal)
+- [`ModalCard`](#modalcard)
+- [`ModalCardBody`](#modalcardbody)
+- [`ModalCardFooter`](#modalcardfooter)
+- [`ModalCardHeader`](#modalcardheader)
+- [`ModalContent`](#modalcontent)
 - [`ModalNotif`](#modalnotif)
 - [`Navbar`](#navbar)
 - [`NavbarBrand`](#navbarbrand)
@@ -21,13 +28,39 @@
 - [`NavbarItem`](#navbaritem)
 - [`Notification`](#notification)
 - [`PageLoader`](#pageloader)
+- [`Panel`](#panel)
+- [`PanelBlock`](#panelblock)
+- [`PanelHeader`](#panelheader)
+- [`PanelIcon`](#panelicon)
+- [`PanelTabs`](#paneltabs)
 - [`Subtitle`](#subtitle)
+- [`Table`](#table)
+- [`Tbody`](#tbody)
 - [`Text`](#text)
+- [`Tfoot`](#tfoot)
+- [`Th`](#th)
+- [`Thead`](#thead)
 - [`Title`](#title)
 - [`Toast`](#toast)
-- [`box`](#box)
+- [`Tr`](#tr)
 
 ---
+
+## `Box`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
 
 ## `Button`
 
@@ -224,6 +257,116 @@ None.
 | input      | forwarded | --     |
 | blur       | forwarded | --     |
 
+## `Modal`
+
+### Props
+
+| Prop name   | Kind             | Reactive | Type                 | Default value      | Description |
+| :---------- | :--------------- | :------- | :------------------- | ------------------ | ----------- |
+| visibility  | <code>let</code> | Yes      | <code>boolean</code> | <code>false</code> | --          |
+| closeButton | <code>let</code> | No       | <code>boolean</code> | <code>false</code> | --          |
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+| Event name | Type       | Detail |
+| :--------- | :--------- | :----- |
+| visibility | dispatched | --     |
+
+## `ModalCard`
+
+### Props
+
+| Prop name  | Kind             | Reactive | Type                 | Default value      | Description |
+| :--------- | :--------------- | :------- | :------------------- | ------------------ | ----------- |
+| visibility | <code>let</code> | Yes      | <code>boolean</code> | <code>false</code> | --          |
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+| Event name | Type       | Detail |
+| :--------- | :--------- | :----- |
+| visibility | dispatched | --     |
+
+## `ModalCardBody`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `ModalCardFooter`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `ModalCardHeader`
+
+### Props
+
+| Prop name   | Kind             | Reactive | Type                 | Default value      | Description |
+| :---------- | :--------------- | :------- | :------------------- | ------------------ | ----------- |
+| title       | <code>let</code> | No       | <code>string</code>  | <code>""</code>    | --          |
+| closeButton | <code>let</code> | No       | <code>boolean</code> | <code>false</code> | --          |
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+| Event name | Type      | Detail |
+| :--------- | :-------- | :----- |
+| click      | forwarded | --     |
+
+## `ModalContent`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
 ## `ModalNotif`
 
 ### Props
@@ -347,7 +490,122 @@ None.
 
 None.
 
+## `Panel`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `PanelBlock`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `PanelHeader`
+
+### Props
+
+| Prop name | Kind             | Reactive | Type                | Default value   | Description |
+| :-------- | :--------------- | :------- | :------------------ | --------------- | ----------- |
+| title     | <code>let</code> | No       | <code>string</code> | <code>""</code> | --          |
+
+### Slots
+
+None.
+
+### Events
+
+None.
+
+## `PanelIcon`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `PanelTabs`
+
+### Props
+
+| Prop name | Kind             | Reactive | Type                 | Default value      | Description |
+| :-------- | :--------------- | :------- | :------------------- | ------------------ | ----------- |
+| isActive  | <code>let</code> | No       | <code>boolean</code> | <code>false</code> | --          |
+| href      | <code>let</code> | No       | <code>string</code>  | <code>""</code>    | --          |
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
 ## `Subtitle`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `Table`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `Tbody`
 
 ### Props
 
@@ -378,6 +636,52 @@ None.
 | Slot name | Default | Props | Fallback |
 | :-------- | :------ | :---- | :------- |
 | --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `Tfoot`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `Th`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `Thead`
+
+### Props
+
+None.
+
+### Slots
+
+None.
 
 ### Events
 
@@ -416,7 +720,7 @@ None.
 
 None.
 
-## `box`
+## `Tr`
 
 ### Props
 

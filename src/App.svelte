@@ -1,16 +1,15 @@
-<script>
-  import "bulma/css/bulma.css";
-  import { Button } from "./index.js";
-
-  let c = "link";
+<script lang="ts">
+  /* import "bulma/css/bulma.css"; */
+  /* import { */
+  /*   Modal, */
+  /*   ModalCard, */
+  /*   ModalCardBody, */
+  /*   ModalCardHeader, */
+  /*   ModalCardFooter, */
+  /*   Button, */
+  /*   Box, */
+  /*   Text, */
+  /* } from "./index.js"; */
 </script>
 
-<main>
-  <Button
-    color={c}
-    label="button"
-    on:click={() => {
-      if (c === 'link') c = 'anger';
-      else c = 'link';
-    }} />
-</main>
+<main />
