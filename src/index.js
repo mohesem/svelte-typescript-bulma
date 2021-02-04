@@ -10,10 +10,14 @@ export { default as Fieldset } from "./components/Fieldset.svelte";
 export { default as Help } from "./components/Help.svelte";
 export { default as Input } from "./components/Input.svelte";
 export { default as ModalNotif } from "./components/ModalNotif.svelte";
+// navbar
 export { default as Navbar } from "./components/Navbar.svelte";
 export { default as NavbarBrand } from "./components/NavbarBrand.svelte";
 export { default as NavbarEnd } from "./components/NavbarEnd.svelte";
 export { default as NavbarItem } from "./components/NavbarItem.svelte";
+export { default as NavbarMenu } from "./components/NavbarMenu.svelte";
+export { default as NavbarStart } from "./components/NavbarStart.svelte";
+
 export { default as Notification } from "./components/Notification.svelte";
 export { default as PageLoader } from "./components/PageLoader.svelte";
 export { default as Subtitle } from "./components/Subtitle.svelte";

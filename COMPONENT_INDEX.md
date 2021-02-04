@@ -1,6 +1,6 @@
 # Component Index
 
-> 39 components exported from svelte-typescript-bulma@0.1.9.
+> 41 components exported from svelte-typescript-bulma@0.2.0.
 
 ## Components
 
@@ -26,6 +26,8 @@
 - [`NavbarBrand`](#navbarbrand)
 - [`NavbarEnd`](#navbarend)
 - [`NavbarItem`](#navbaritem)
+- [`NavbarMenu`](#navbarmenu)
+- [`NavbarStart`](#navbarstart)
 - [`Notification`](#notification)
 - [`PageLoader`](#pageloader)
 - [`Panel`](#panel)
@@ -446,6 +448,38 @@ None.
 | href      | <code>let</code> | No       | <code>string</code>  | <code>""</code>    | --          |
 | value     | <code>let</code> | No       | <code>string</code>  | <code>""</code>    | --          |
 | active    | <code>let</code> | No       | <code>boolean</code> | <code>false</code> | --          |
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `NavbarMenu`
+
+### Props
+
+None.
+
+### Slots
+
+| Slot name | Default | Props | Fallback |
+| :-------- | :------ | :---- | :------- |
+| --        | Yes     | --    | --       |
+
+### Events
+
+None.
+
+## `NavbarStart`
+
+### Props
+
+None.
 
 ### Slots
 

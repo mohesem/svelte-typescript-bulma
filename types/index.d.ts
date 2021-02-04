@@ -14,6 +14,8 @@ export { default as Navbar } from "./components/Navbar";
 export { default as NavbarBrand } from "./components/NavbarBrand";
 export { default as NavbarEnd } from "./components/NavbarEnd";
 export { default as NavbarItem } from "./components/NavbarItem";
+export { default as NavbarMenu } from "./components/NavbarMenu";
+export { default as NavbarStart } from "./components/NavbarStart";
 export { default as Notification } from "./components/Notification";
 export { default as PageLoader } from "./components/PageLoader";
 export { default as Subtitle } from "./components/Subtitle";

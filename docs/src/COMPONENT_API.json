@@ -1,5 +1,5 @@
 {
-  "total": 39,
+  "total": 41,
   "components": [
     {
       "moduleName": "Box",
@@ -557,6 +557,22 @@
           "reactive": false
         }
       ],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "NavbarMenu",
+      "filePath": "src/components/NavbarMenu.svelte",
+      "props": [],
+      "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
+      "events": [],
+      "typedefs": []
+    },
+    {
+      "moduleName": "NavbarStart",
+      "filePath": "src/components/NavbarStart.svelte",
+      "props": [],
       "slots": [{ "name": "__default__", "default": true, "slot_props": "{}" }],
       "events": [],
       "typedefs": []
